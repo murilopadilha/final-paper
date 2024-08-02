@@ -1,7 +1,12 @@
 {
+<<<<<<< HEAD
   "expo": {
     "name": "piveApp",
     "slug": "piveApp",
     "version": "1.0.0"
   }
+=======
+  "name": "primeiroProjeto",
+  "displayName": "primeiroProjeto"
+>>>>>>> 2fbb754fb29a5bce78a86a1f1bbf1dd615785bca
 }

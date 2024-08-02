@@ -1,3 +1,7 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">piveApp</string>
+=======
+    <string name="app_name">primeiroProjeto</string>
+>>>>>>> 2fbb754fb29a5bce78a86a1f1bbf1dd615785bca
 </resources>

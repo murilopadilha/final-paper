@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 rootProject.name = 'piveApp'
 
 dependencyResolutionManagement {
@@ -16,3 +17,9 @@ applyNativeModulesSettingsGradle(settings)
 
 include ':app'
 includeBuild(new File(["node", "--print", "require.resolve('@react-native/gradle-plugin/package.json', { paths: [require.resolve('react-native/package.json')] })"].execute(null, rootDir).text.trim()).getParentFile())
+=======
+rootProject.name = 'primeiroProjeto'
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app'
+includeBuild('../node_modules/@react-native/gradle-plugin')
+>>>>>>> 2fbb754fb29a5bce78a86a1f1bbf1dd615785bca
